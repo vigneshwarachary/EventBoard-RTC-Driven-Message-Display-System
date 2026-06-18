@@ -116,6 +116,5 @@ Once the system is powered on, it will automatically cycle through the following
 1.EEPROM Persistence: Currently, all settings (time/messages) are lost upon power reset. Implementing I2C EEPROM storage will allow the system to save user-defined   schedules and RTC configurations permanently.  
 2.Secured Admin Mode: Integrating a 4-digit PIN authentication adds a professional security layer that prevents unauthorized access to system settings. By masking     input with asterisks, the system ensures sensitive configuration data remains protected from casual observers. This feature transforms the device from as   impledisplay tool into a secure administrative platform suitable for academic or office environments.  
 3.Sensor Integration: Expand the ADC module to include more environmental sensors (e.g., humidity or light sensors) and display them in a user-selectable toggle   mode on the second line.  
-## Block Diagram  
 <img width="1327" height="796" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/b15048f5-26e2-429d-bbf8-4074fe2f82a9" />
 
